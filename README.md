@@ -15,7 +15,7 @@ it’s changed over time and have a better grasp of the data as a whole.
 
 This is a research project from 2020, I may or may not contribute to it again but I needed to perform some cleaning up and formatting adjustments for it to be GitHub compatible and I'm uploading it for viewing.
 
-To simply view, open the Suicide-Rate-Analysis.md file.
+To simply view, [open the Suicide-Rate-Analysis.md file](https://github.com/Dream3223/Suicide-Rate-Analysis/blob/main/Suicide-Rate-Analysis.md).
 
 ## Getting Started
 
