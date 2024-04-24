@@ -310,7 +310,7 @@ df %>%
 
 labs(title = "Global Suicides by Gender", 
        subtitle = "suicide rate per 100k from 1985-2015",
-       x = "Year",
+       x = "Gender",
        y = "Rate of suicides per 100k",
        caption = "• Males’ suicide rate (per 100k) is roughly 4 times greater than that of females.
 • Males’ suicide rate (per 100k) is about 20 while females is 5.4.")
@@ -332,7 +332,7 @@ df %>%
 
   labs(title = "Global Suicides by Gender", 
        subtitle = "suicide rate per 100k from 1985-2015",
-       x = "Gender",
+       x = "Year",
        y = "Rate of suicides per 100k",
        caption = "• Males’ suicide rate (per 100k) has a much higher base rate and has increased up until 1995 and has 
        steadily been decreasing to a similar rate of 1987.
