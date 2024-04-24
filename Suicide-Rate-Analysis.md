@@ -204,7 +204,8 @@ df %>%
 ![](Suicide-Rate-Analysis_files/figure-gfm/unnamed-chunk-4-2.png)<!-- -->
 
 ``` r
-# A pretty steep increase in suicides per 100k up until the big spike from 1994-1995, then overall decreasing with some small increases between years
+
+A pretty steep increase in suicides per 100k up until the big spike from 1994-1995, then overall decreasing with some small increases between years
 
 df %>% 
   group_by(year) %>%
