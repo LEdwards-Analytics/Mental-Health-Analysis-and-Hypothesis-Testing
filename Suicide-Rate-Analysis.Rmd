@@ -116,7 +116,7 @@ df %>%
   
   labs(title = "Global Suicides", 
        subtitle = "Total suicides from 1985-2015",
-       x = "Year",
+       x = "Gender",
        y = "Suicides",
        caption = "• The amount of suicides around the world was increasing up until around 2002 and has since decreased 
        even with an ever-growing global population size.
