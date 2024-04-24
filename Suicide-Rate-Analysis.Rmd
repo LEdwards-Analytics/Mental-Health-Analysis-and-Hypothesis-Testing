@@ -116,7 +116,7 @@ df %>%
   
   labs(title = "Global Suicides", 
        subtitle = "Total suicides from 1985-2015",
-       x = "Year",
+       x = "Gender",
        y = "Suicides",
        caption = "• The amount of suicides around the world was increasing up until around 2002 and has since decreased 
        even with an ever-growing global population size.
@@ -143,7 +143,7 @@ df %>%
 • The highest rate of suicides (per 100k) was in 1995 with roughly 15.7. 
 • In 2015 the rate of suicides (per 100k) was about 11.1.")
 
-# A pretty steep increase in suicides per 100k up until the big spike from 1994-1995, then overall decreasing with some small increases between years
+
 
 df %>% 
   group_by(year) %>%
@@ -158,6 +158,7 @@ df %>%
   summarise(Suicides = mean(sum(suicides_no)))
 
 ```
+A pretty steep increase in suicides per 100k up until the big spike from 1994-1995, then overall decreasing with some small increases between years
 
 
 We can also look at the change over time with the rate of suicides to get an idea of how rapidly it’s decreasing or increasing. This will also give a base answer to my question of how the rate of suicides (per 100k) has changed over time, with a few more in-depth graphs with more variables included to follow it.
@@ -187,7 +188,7 @@ df %>%
 
 labs(title = "Global Suicides by Gender", 
        subtitle = "suicide rate per 100k from 1985-2015",
-       x = "Year",
+       x = "Gender",
        y = "Rate of suicides per 100k",
        caption = "• Males’ suicide rate (per 100k) is roughly 4 times greater than that of females.
 • Males’ suicide rate (per 100k) is about 20 while females is 5.4.")
