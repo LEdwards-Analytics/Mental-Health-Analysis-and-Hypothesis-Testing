@@ -1,4 +1,4 @@
-# Suicide Rate Analysis
+# Mental Health Analysis
 
 Suicide Rates Around the World from 1985-2015
 
